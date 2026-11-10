@@ -1,0 +1,4 @@
+*.bin
+shellcode*.h
+*.exe
+!module_b/loader.exe
