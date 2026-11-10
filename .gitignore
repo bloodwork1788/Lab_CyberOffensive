@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Build artefacts
+*.o
+*.bin
+shellcode*.h
+shellcode*.c
+
+# Binaires (garder démo + loader + final)
+*.exe
+!demo/phase0/test_base_x86.exe
+!module_b/loader.exe
+!final/*.exe
